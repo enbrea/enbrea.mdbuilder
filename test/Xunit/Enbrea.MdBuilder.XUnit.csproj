@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
-    <LangVersion>11</LangVersion>
+        <LangVersion>11</LangVersion>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<IsPackable>false</IsPackable>
 		<Authors>STÜBER SYSTEMS GmbH</Authors>
