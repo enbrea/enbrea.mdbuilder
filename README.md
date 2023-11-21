@@ -5,7 +5,7 @@
 
 A .NET library for generating Markdown formatted strings, streams or files. 
 
-+ Supports .NET 6 and .NET 7
++ Supports .NET 6, .NET 7 and .NET 8
 + Implements Markdown according to [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 + Implements the following extensions from [Python Markdown](https://python-markdown.github.io/extensions/):
   + [Admonition](https://python-markdown.github.io/extensions/admonition/)
