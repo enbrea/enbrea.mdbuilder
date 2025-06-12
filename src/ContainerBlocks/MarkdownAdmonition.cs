@@ -1,8 +1,8 @@
-﻿#region ENBREA.MdBuilder - Copyright (C) 2023 STÜBER SYSTEMS GmbH
+﻿#region ENBREA.MdBuilder - Copyright (C) STÜBER SYSTEMS GmbH
 /*    
  *    ENBREA.MdBuilder
  *    
- *    Copyright (C) 2023 STÜBER SYSTEMS GmbH
+ *    Copyright (C) STÜBER SYSTEMS GmbH
  *
  *    Licensed under the MIT License, Version 2.0. 
  * 
