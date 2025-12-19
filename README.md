@@ -5,12 +5,12 @@
 
 A .NET library for generating Markdown formatted strings, streams or files. 
 
-+ Supports .NET 6, .NET 8 and .NET 9
-+ Implements Markdown according to [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
++ Supports .NET 10, .NET 9 and .NET 8.
++ Implements Markdown according to [GitHub Flavored Markdown Spec](https://github.github.com/gfm/).
 + Implements the following extensions from [Python Markdown](https://python-markdown.github.io/extensions/):
   + [Admonition](https://python-markdown.github.io/extensions/admonition/)
   + [Definition Lists](https://python-markdown.github.io/extensions/definition_lists/)
-+ Implements the following extensions from [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)  
++ Implements the following extensions from [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/):
   + [Caret](https://facelessuser.github.io/pymdown-extensions/extensions/caret/)
   + [Details](https://facelessuser.github.io/pymdown-extensions/extensions/details/)  
   + [Emoji](https://facelessuser.github.io/pymdown-extensions/extensions/emoji/)
