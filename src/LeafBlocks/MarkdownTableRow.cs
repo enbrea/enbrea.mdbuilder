@@ -28,7 +28,7 @@ namespace Enbrea.MdBuilder
         /// <summary>
         /// The data cells
         /// </summary>
-        public List<IMarkdownLeafBlock> CellContents { get; } = new();
+        public List<IMarkdownLeafBlock> CellContents { get; } = [];
 
         /// <summary>
         /// Appends a new data cell

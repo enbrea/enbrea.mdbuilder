@@ -19,7 +19,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public abstract class MarkdownInline : IMarkdownInline
     {
-        private readonly List<IMarkdownInline> _inlineElements = new();
+        private readonly List<IMarkdownInline> _inlineElements = [];
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MarkdownInline"/> class.

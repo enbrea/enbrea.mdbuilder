@@ -28,7 +28,7 @@ namespace Enbrea.MdBuilder
         /// <summary>
         /// List of table header columns
         /// </summary>
-        public List<MarkdownTableColumn> Columns { get; } = new();
+        public List<MarkdownTableColumn> Columns { get; } = [];
 
         /// <summary>
         /// Appends a new column to the table header

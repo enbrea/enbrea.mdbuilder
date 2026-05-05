@@ -19,7 +19,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public abstract class MarkdownLeafBlock : IMarkdownLeafBlock
     {
-        protected readonly List<IMarkdownInline> _inlineElements = new();
+        protected readonly List<IMarkdownInline> _inlineElements = [];
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MarkdownLeafBlock"/> class.
@@ -74,7 +74,7 @@ namespace Enbrea.MdBuilder
         /// <param name="block">The leaf block</param>
         public void Assign(MarkdownLeafBlock block)
         {
-            Assign(block._inlineElements.ToArray());
+            Assign([.. block._inlineElements]);
         }
 
         /// <summary>

@@ -18,7 +18,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public class MarkdownTaskListItem : MarkdownContainerBlock, IMarkdownTaskListItem
     {
-        private bool _isChecked = false;
+        private readonly bool _isChecked = false;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MarkdownTaskListItem"/> class.

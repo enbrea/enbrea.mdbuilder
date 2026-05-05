@@ -5,13 +5,13 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>STÜBER SYSTEMS GmbH</Authors>
     <Company>STÜBER SYSTEMS GmbH</Company>
-    <Copyright>© 2025 STÜBER SYSTEMS GmbH</Copyright>
+    <Copyright>© 2026 STÜBER SYSTEMS GmbH</Copyright>
     <Product>Enbrea Markdown Builder</Product>
     <Description>A .NET library for generating Markdown formatted strings, streams or files</Description>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage></NeutralLanguage>
     <LangVersion>latest</LangVersion>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/enbrea/enbrea.mdbuilder</RepositoryUrl>

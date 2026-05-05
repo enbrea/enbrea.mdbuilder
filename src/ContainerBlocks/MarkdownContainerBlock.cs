@@ -20,7 +20,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public class MarkdownContainerBlock : IMarkdownContainerBlock
     {
-        protected readonly List<IMarkdownBlock> _blockElements = new();
+        protected readonly List<IMarkdownBlock> _blockElements = [];
 
         /// <summary>
         /// Appends a list of container and/or leaf elements

@@ -19,7 +19,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public class MarkdownHeading : MarkdownParagraph
     {
-        private static readonly string[] _prefixes = { "# ", "## ", "### ", "#### ", "##### ", "###### " };
+        private static readonly string[] _prefixes = ["# ", "## ", "### ", "#### ", "##### ", "###### "];
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MarkdownHeading"/> class.

@@ -20,7 +20,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public abstract class MarkdownList : IMarkdownList, IMarkdownListItem
     {
-        protected readonly List<IMarkdownListItem> _listItems = new();
+        protected readonly List<IMarkdownListItem> _listItems = [];
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MarkdownDefinitionList"/> class.

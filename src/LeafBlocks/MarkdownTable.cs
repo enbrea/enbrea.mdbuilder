@@ -20,7 +20,7 @@ namespace Enbrea.MdBuilder
     /// </summary>
     public class MarkdownTable : IMarkdownLeafBlock
     {
-        private readonly List<MarkdownTableRow> _rows = new();
+        private readonly List<MarkdownTableRow> _rows = [];
         private readonly MarkdownTableHeader _header = new();
 
         /// <summary>

@@ -28,7 +28,7 @@ namespace Enbrea.MdBuilder
         {
             if (!string.IsNullOrEmpty(code))
             {
-                var codeLines = code.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.None);
+                var codeLines = code.Split(["\r\n", "\n"], StringSplitOptions.None);
 
                 foreach (var textLine in codeLines)
                 {
